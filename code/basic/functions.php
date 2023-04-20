@@ -22,6 +22,10 @@
         }
 
         echo cube(4), '<br>';
+
+        echo function() {
+            return 'closure';
+        }, '<br>';
     ?>
 </body>
 </html>
